@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+</head>
+<body>
+    <header id="header_container">
+        <div id="div_header">
+            <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png">
+        </div>
+    </header>
+    <span id="input_container">
+        <div id="input_interface">
+            <label for="input">Search Pokemon by name or ID</label>
+            <input id="nome" type="text" placeholder="Name or ID">
+            <button id="botao">Search</button>
+            <ul id="lista">
+                <label for="input">Choose an Attribute to Explore</label>
+                <select name="" id="select">
+                    <option value="Abilites">Abilites</option>
+                    <option value="held_items">Held-Items</option>
+                    <option value="location_area_encounters">Location Area Encounters</option>
+                    <option value="types">Types</option>
+                </select>
+            </ul>
+        </div>
+        <div id="result_container">
+            <h1>
+                <img id="pokemon_image">
+            </h1>
+        </div>
+    </span>
+    <footer id="footer_container">
+        <div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/pokemon.js"></script>
+</body>
+</html>
