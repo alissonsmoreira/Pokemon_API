@@ -1,0 +1,42 @@
+#div_header{
+    display: flex;
+    justify-content: center;
+}
+#header_container{
+    height: 150px;
+    background-image: linear-gradient(#ff0000,#ffcbcb);
+    
+}
+#input_container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+}
+#input_interface{
+    background-color: antiquewhite ;
+    display: flex;
+    margin: 0px;
+    border-radius: 50px;
+    border:solid 3px;
+    padding: 0px;
+    height: auto;
+}
+#botao{
+    justify-content:;
+    height: 40px;
+}
+#result_container{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 0px;
+    border-radius: 50px;
+    border:solid 3px;
+    padding: 0px;
+    height: auto;
+}
+#footer_container{
+    min-height: 150px;
+    background-image: linear-gradient(#ffcbcb,#ff0000);
+}
+
